@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/piernaIzq"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="146dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/brazo_der"
+        android:visibility="invisible"/>
+
+
+    <TextView
+        android:id="@+id/botonNuevoJuego"
+        android:layout_width="110dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/abc"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Nuevo Juego"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/terminoJuego" />
+
+    <ImageView
+        android:id="@+id/piernaDer"
+        android:layout_width="39dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.762"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/brazo_izq"
+        android:visibility="invisible"/>
+
+
+    <TextView
+        android:id="@+id/terminoJuego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="252dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="249dp"
+            android:layout_height="33dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/letraA"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="A" />
+
+            <TextView
+                android:id="@+id/letraB"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="B" />
+
+            <TextView
+                android:id="@+id/letraC"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="C" />
+
+            <TextView
+                android:id="@+id/letraD"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="D" />
+
+            <TextView
+                android:id="@+id/letraE"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="E" />
+
+            <TextView
+                android:id="@+id/letraF"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="F" />
+
+            <TextView
+                android:id="@+id/letraG"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="G" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="249dp"
+            android:layout_height="33dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/letraH"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="H" />
+
+            <TextView
+                android:id="@+id/letraI"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="I" />
+
+            <TextView
+                android:id="@+id/letraJ"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="J" />
+
+            <TextView
+                android:id="@+id/letraK"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="K" />
+
+            <TextView
+                android:id="@+id/letraL"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="L" />
+
+            <TextView
+                android:id="@+id/letraM"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="M" />
+
+            <TextView
+                android:id="@+id/letraN"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="N" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="249dp"
+            android:layout_height="33dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/letraO"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="O" />
+
+            <TextView
+                android:id="@+id/letraP"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="P" />
+
+            <TextView
+                android:id="@+id/letraQ"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Q" />
+
+            <TextView
+                android:id="@+id/letraR"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="R" />
+
+            <TextView
+                android:id="@+id/letraS"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="S" />
+
+            <TextView
+                android:id="@+id/letraT"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="T" />
+
+            <TextView
+                android:id="@+id/letraU"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="U" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="214dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/letraV"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="V" />
+
+            <TextView
+                android:id="@+id/letraW"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="W" />
+
+            <TextView
+                android:id="@+id/letraX"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="X" />
+
+            <TextView
+                android:id="@+id/letraY"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Y" />
+
+            <TextView
+                android:id="@+id/letraZ"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/abc"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Z" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cabeza"
+        android:layout_width="51dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.713"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/cabeza"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/torso"
+        android:layout_width="10dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/torso"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/brazoDer"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/brazo_der"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/brazoIzq"
+        android:layout_width="39dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/brazo_izq"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/antena"
+        android:layout_width="232dp"
+        android:layout_height="248dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/antenna"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="393dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/antena"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLetra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-25dp"
+            android:orientation="horizontal"
+            android:paddingStart="90dp"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutSubrayado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="horizontal"
+            android:paddingStart="90dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
